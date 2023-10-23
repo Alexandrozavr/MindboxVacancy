@@ -5,6 +5,7 @@ namespace Tests
     [TestClass]
     public class UnitTest1
     {
+        [TestMethod]
         public void Test1()
         {
             Figure figure = FigureFactory.CreateFigure(new double[] {5,4,3});
