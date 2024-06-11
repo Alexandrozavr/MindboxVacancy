@@ -5,6 +5,10 @@ VisualStudioVersion = 17.10.34928.147
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MindboxVacancy", "MindboxVacancy\MindboxVacancy.csproj", "{7A61D32E-3FB4-4286-A4BE-629B08051C43}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MindboxVacancy.FigureLibrary", "FigureLibrary\MindboxVacancy.FigureLibrary.csproj", "{3688FE3D-7016-4434-B2E7-30185D32CADB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MindboxVacancy.Tests", "MindboxVacancy.Tests\MindboxVacancy.Tests.csproj", "{9B65B879-3EF3-4468-90C7-615B67DE14A0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{7A61D32E-3FB4-4286-A4BE-629B08051C43}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7A61D32E-3FB4-4286-A4BE-629B08051C43}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7A61D32E-3FB4-4286-A4BE-629B08051C43}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3688FE3D-7016-4434-B2E7-30185D32CADB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3688FE3D-7016-4434-B2E7-30185D32CADB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3688FE3D-7016-4434-B2E7-30185D32CADB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3688FE3D-7016-4434-B2E7-30185D32CADB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9B65B879-3EF3-4468-90C7-615B67DE14A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9B65B879-3EF3-4468-90C7-615B67DE14A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9B65B879-3EF3-4468-90C7-615B67DE14A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9B65B879-3EF3-4468-90C7-615B67DE14A0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
