@@ -15,3 +15,20 @@
 Задание 2:
 
 В базе данных MS SQL Server есть продукты и категории. Одному продукту может соответствовать много категорий, в одной категории может быть много продуктов. Напишите SQL запрос для выбора всех пар «Имя продукта – Имя категории». Если у продукта нет категорий, то его имя все равно должно выводиться.
+
+один продукт - много категорий. одна категория - много продуктов. Тип связи: "многие ко многим".
+Нужна третья таблица, где будет два первичных ключа, которая будет связывать таблица Products и Categories
+
+Судя по заданию нужен лишь запрос. значит у меня уже есть таблици Products, Categories и ProductsCategories следующих наполнений:
+Products:
+id, name;
+Categories:
+id, name;
+ProductsCategories:
+productId, categoryId; с очевидными связями
+
+тогда запрос -
+SELECT Products.name, Catrgories.name
+FROM Products LEFT JOIN ProductsCategories
+ON Products.id = ProductsCategories.productId LEFT JOIN Catrgories
+ON ProductsCategories.categoryId = Catrgories.id
