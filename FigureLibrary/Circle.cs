@@ -2,12 +2,8 @@
 {
 	public class Circle : Figure
 	{
-		private readonly double r;
-		/// <summary>
-		/// ограничим возможность создания фигур до internal, чтоб создавали всегда через Factory, где и проверяются все свойства фигур
-		/// </summary>
-		/// <param name="r"></param>
-		internal Circle(double r)
+		private readonly double r;		
+		internal Circle(double r) //ограничим возможность создания фигур до internal, чтоб создавали всегда через Factory, где и проверяются все свойства фигур
 		{
 			this.r = r;
 		}
