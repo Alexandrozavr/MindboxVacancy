@@ -28,6 +28,7 @@ ProductsCategories:
 productId, categoryId; с очевидными связями
 
 тогда запрос -
+
 SELECT Products.name, Catrgories.name
 FROM Products LEFT JOIN ProductsCategories
 ON Products.id = ProductsCategories.productId LEFT JOIN Catrgories
